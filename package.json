@@ -1,0 +1,16 @@
+{
+  "name": "win-spawn-scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:win-spawn": "win-spawn FOO=bar && echo $FOO",
+    "test:no-win-spawn": "FOO=bar && echo $FOO"
+  },
+  "keywords": [],
+  "author": "Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "win-spawn": "2.0.0"
+  }
+}
